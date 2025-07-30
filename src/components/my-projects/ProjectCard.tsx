@@ -11,8 +11,9 @@ export type ProjectCardProps = {
   soundcloud?: string
 }
 const ProjectCard: React.FC<ProjectCardProps> = ({id, name, description, image = "./assets/react.svg", github, youtube, soundcloud}) => {
+  
   return (
-    <article className={styles['project-card']}>
+    <article key={id} className={styles['project-card']}>
       <div className={styles['card-image-wrapper']}>
         <img src={image} alt={name} />
       </div>
@@ -23,6 +24,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({id, name, description, image =
           // insert github icon
           <div></div>
         )}
+        {
+          youtube && (
+          // insert youtube icon
+          <div></div>
+        )
+        }
+        {
+          soundcloud && (
+          // insert soundcloud icon
+          <div></div>
+        )
+        }
       </div>
 
     </article>
