@@ -1,0 +1,13 @@
+@use "../../variables";
+
+footer {
+
+    font-size: large;
+    margin-top: variables.$spacing-xl;
+    background: variables.$color-primary;
+    text-align: center;
+}
+
+.footer-copyright {
+    padding: variables.$spacing-lg;
+}

@@ -1,0 +1,45 @@
+// Brand colors
+$color-primary: #414073;
+$color-secondary: #70A37F;
+$color-tertiary: #4C3957;
+$color-accent: #79B473;
+$color-accent-2: #1e1bac;
+$color-accent-3: aliceblue;
+$color-bg: #242424;
+$color-white: white;
+
+// Fonts
+$font-family-base: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+$font-family-monospace: 'Fira Code', monospace;
+$font-size-base: 1rem; //16px
+$font-size-sm: 0.875rem;
+$font-size-lg: 1.125rem;
+
+// Headers
+// Assuming you have these in _variables.scss
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.5rem;
+$font-size-h4: 1.25rem;
+$font-size-h5: 1.1rem;
+$font-size-h6: 1rem;
+
+
+// Spacings
+
+$spacing-xs: 0.25rem; // 4px
+$spacing-sm: 0.5rem; // 8px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 2rem; // 32px
+$spacing-xl: 4rem; // 64px
+
+// Borders
+$border-radius-sm: 0.5rem;
+$border-radius-md: 1rem;
+$border-radius-lg: 2rem;
+
+// Media Queries
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
