@@ -1,31 +1,33 @@
 export const ProjectData = [
   {
     id: 1,
-    name: 'Project 1',
-    description: "1st project.",
-    coverImage: './TBDimage.png',
-    github: 'example.com',
-    youtube:'example.com'
+    name: 'Clover, Again',
+    description: "GMTK Game Jam 2025 entry. Theme: LOOP",
+    image: '/clover-again-thumb.png',
+    link: 'https://itch.io/jam/gmtk-2025/rate/3784099',
+    github: 'https://github.com/andrew-peng-144/GodotGameJamLOOP'
   },
   {
     id: 2,
-    name: 'Project 2',
-    description: "Some project",
-    coverImage: './TBDimage.png',
-    github: 'example.com'
+    name: 'Mini Outbreak',
+    description: "Ludum Dare 56 entry. Theme: Tiny Creatures",
+    image: '/mini-outbreak-thumb.png',
+    link: 'https://ldjam.com/events/ludum-dare/56/mini-outbreak',
+    github: 'https://github.com/andrew-peng-144/ld56'
   },
   {
     id: 3,
-    name: 'Project 3',
-    description: "Some project",
-    coverImage: './TBDimage.png',
-    github: 'example.com'
+    name: 'ShooterMaze',
+    description: "Ludum Dare 41 entry. Theme: Combine two incompatible genres",
+    image: '/shooter-maze-thumb.png',
+    link: 'https://ldjam.com/events/ludum-dare/56/mini-outbreak',
+    github: 'https://github.com/andrew-peng-144/shootermaze'
   },
   {
     id: 4,
     name: 'Project 4',
-    description: "Some project",
-    coverImage: './TBDimage.png',
+    description: "TBD - Project showcase website",
+    image: './TBDimage.png',
     github: 'example.com',
   },
 ]

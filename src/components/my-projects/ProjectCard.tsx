@@ -6,39 +6,48 @@ export type ProjectCardProps = {
   name: string
   description: string
   image?: string
+  link?: string
   github?: string
   youtube?: string
   soundcloud?: string
 }
-const ProjectCard: React.FC<ProjectCardProps> = ({id, name, description, image = "./assets/react.svg", github, youtube, soundcloud}) => {
-  
+const ProjectCard: React.FC<ProjectCardProps> = ({ id, name, description, image = "./assets/react.svg", link = "example.com", github, youtube, soundcloud }) => {
+
   return (
     <article key={id} className={styles['project-card']}>
-      <div className={styles['card-image-wrapper']}>
+      <a className={styles['card-image-wrapper']} href={link}>
         <img src={image} alt={name} />
-      </div>
+      </a>
       <h3>{name}</h3>
-      <div className={styles['card_desc']}>{description}</div>
-      <div className={styles['card_footer']}>
+      <p className={styles['card-desc']}>{description}</p>
+      <div className={styles['card-footer']}>
         {github && (
           // insert github icon
-          <div></div>
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github-button"
+            style={{ textAlign:'center'}}
+          >
+        GitHub
+      </a>
         )}
-        {
-          youtube && (
+      {
+        youtube && (
           // insert youtube icon
           <div></div>
         )
-        }
-        {
-          soundcloud && (
+      }
+      {
+        soundcloud && (
           // insert soundcloud icon
           <div></div>
         )
-        }
-      </div>
+      }
+    </div>
 
-    </article>
+    </article >
   )
 }
 export default ProjectCard

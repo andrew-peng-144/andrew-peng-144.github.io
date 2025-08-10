@@ -13,16 +13,17 @@
   height: 200px;
   object-fit: cover;
   display: block;
+  margin-bottom: $spacing-md;
 }
 
 .card-desc {
   font-size: $font-size-base;
   color: gray;
+  text-align: left;
 }
 
 .card-footer {
   display: flex;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  gap: 1rem;
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-md;
 }

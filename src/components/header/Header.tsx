@@ -1,5 +1,5 @@
 import styles from './Header.module.scss'
-
+import { Links } from "../../links"
 const Header = () => {
   return (
 
@@ -12,10 +12,10 @@ const Header = () => {
 
         <div className={styles['header-links']}>
 
-          <a href="example.com" target="_blank" rel='noopener noreferrer'>Resume</a>
-          <a href="example.com" target="_blank" rel='noopener noreferrer'>LinkedIn</a>
-          <a href="example.com" target="_blank" rel='noopener noreferrer'>GitHub</a>
-          <a href="example.com" target="_blank" rel='noopener noreferrer'>SoundCloud</a>
+          <a href={Links.Resume} target="_blank" rel='noopener noreferrer' download>Resume</a>
+          <a href={Links.Linkedin} target="_blank" rel='noopener noreferrer'>LinkedIn</a>
+          <a href={Links.Github} target="_blank" rel='noopener noreferrer'>GitHub</a>
+          <a href={Links.Soundcloud} target="_blank" rel='noopener noreferrer'>SoundCloud</a>
 
         </div>
       </div>
