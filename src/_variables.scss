@@ -5,11 +5,11 @@ $color-tertiary: #4C3957;
 $color-accent: #79B473;
 $color-accent-2: #1e1bac;
 $color-accent-3: aliceblue;
-$color-bg: #242424;
+$color-accent-4: rgb(194, 194, 194);
 $color-white: white;
 
 // Fonts
-$font-family-base: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+$font-family-base: 'Verdana', 'Inter', 'Helvetica Neue', Arial, sans-serif;
 $font-family-monospace: 'Fira Code', monospace;
 $font-size-base: 1rem; //16px
 $font-size-sm: 0.875rem;
@@ -25,7 +25,7 @@ $font-size-h5: 1.1rem;
 $font-size-h6: 1rem;
 
 // Sizes
-$section-width: 1100px;
+$section-max-width: 1100px;
 
 // Spacings
 
@@ -45,3 +45,21 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
+
+
+// Background Pattern
+  /* https://css-pattern.com/cube-columns/ */
+$bg-pattern-size: 45px; /* control the size*/
+$bg-pattern-c1: #202020;
+$bg-pattern-c2: #2b2b2b;
+$bg-pattern-c3: #242424;
+
+$bg-pattern-g: $bg-pattern-c3 0 120deg,#0000 0;
+$bg-pattern:
+conic-gradient(from -60deg at 50% calc(100%/3),$bg-pattern-g),
+conic-gradient(from 120deg at 50% calc(200%/3),$bg-pattern-g),
+conic-gradient(from  60deg at calc(200%/3),$bg-pattern-c3 60deg,$bg-pattern-c2 0 120deg,#0000 0),
+conic-gradient(from 180deg at calc(100%/3),$bg-pattern-c1 60deg,$bg-pattern-g),
+linear-gradient(90deg,$bg-pattern-c1   calc(100%/6),$bg-pattern-c2 0 50%,
+                      $bg-pattern-c1 0 calc(500%/6),$bg-pattern-c2 0);
+$bg-size: calc(1.732*$bg-pattern-size) $bg-pattern-size;

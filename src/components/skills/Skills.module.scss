@@ -5,10 +5,9 @@
 // }
 .skills-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 3rem;
-  padding: 0 5rem 0 5rem;
+  padding: 2rem;
 }
 .skills-card {
   background-color: $color-primary;
@@ -19,6 +18,7 @@
 .skills-title {
   text-align: center;
   margin-bottom: $spacing-md;
+  color: $color-accent-3;
 }
 
 .skills-list {
@@ -28,7 +28,7 @@
 
 .skills-list li {
   text-align: left;
-  font-weight: bold;
   margin-bottom: $spacing-sm;
   margin-left: $spacing-md;
+  color: $color-accent-3;
 }

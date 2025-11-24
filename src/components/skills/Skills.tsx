@@ -11,17 +11,16 @@ const Skills = () => {
             <li>Terraform / Hashicorp Lang HCL</li>
             <li>AWS Lambda</li>
             <li>CI/CD Azure Pipelines</li>
-            <li>NET Core C#</li>
           </ul>
         </div>
         <div className={styles['skills-card']}>
           <h4 className={styles['skills-title']}>Backend</h4>
           <ul className={styles['skills-list']}>
-            <li>SQL & MySQL</li>
-            <li>PHP</li>
-            <li>Java</li>
-            <li>Python</li>
+            <li>.NET Core C#, MVC</li>
+            <li>SQL Server, MySQL, SQLite</li>
+            <li>Python - AWS SDK, numpy, FastAPI</li>
             <li>Node.js</li>
+            <li>Java</li>
           </ul>
         </div>
         <div className={styles['skills-card']}>

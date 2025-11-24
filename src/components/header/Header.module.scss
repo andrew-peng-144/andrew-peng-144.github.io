@@ -12,5 +12,10 @@
 
 .header-links {
   display: flex;
-  gap: $spacing-sm;
+  gap: $spacing-md;
+}
+
+.header-links > a {
+  font-size: $font-size-lg;
+  font-weight: bold;
 }

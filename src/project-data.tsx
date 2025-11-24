@@ -1,6 +1,13 @@
 export const ProjectData = [
   {
     id: 1,
+    name: 'Soundtrack - A Necromantic Connection',
+    description: "SOUNDTRACK for Creepy Cozy Game Jam 2025 entry.",
+    image: '/anc-thumb.jpg',
+    link: 'https://soundcloud.com/andyspace735/sets/a-necromantic-connection-soundtrack'
+  },
+  {
+    id: 2,
     name: 'Clover, Again',
     description: "GMTK Game Jam 2025 entry. Theme: LOOP",
     image: '/clover-again-thumb.png',
@@ -8,7 +15,7 @@ export const ProjectData = [
     github: 'https://github.com/andrew-peng-144/GodotGameJamLOOP'
   },
   {
-    id: 2,
+    id: 3,
     name: 'Mini Outbreak',
     description: "Ludum Dare 56 entry. Theme: Tiny Creatures",
     image: '/mini-outbreak-thumb.png',
@@ -16,16 +23,16 @@ export const ProjectData = [
     github: 'https://github.com/andrew-peng-144/ld56'
   },
   {
-    id: 3,
+    id: 4,
     name: 'ShooterMaze',
     description: "Ludum Dare 41 entry. Theme: Combine two incompatible genres",
     image: '/shooter-maze-thumb.png',
-    link: 'https://ldjam.com/events/ludum-dare/56/mini-outbreak',
+    link: 'https://ldjam.com/events/ludum-dare/41/galagamaze',
     github: 'https://github.com/andrew-peng-144/shootermaze'
   },
   {
-    id: 4,
-    name: 'Project 4',
+    id: 5,
+    name: 'Project 5',
     description: "TBD - Project showcase website",
     image: './TBDimage.png',
     github: 'example.com',

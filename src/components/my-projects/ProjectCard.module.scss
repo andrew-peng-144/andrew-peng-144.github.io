@@ -7,6 +7,10 @@
   padding: $spacing-md $spacing-lg;
 
 }
+.project-card > h3 {
+  font-style: italic;
+  color: $color-accent-3;
+}
 
 .card-image-wrapper {
   width: 100%;
@@ -14,11 +18,12 @@
   object-fit: cover;
   display: block;
   margin-bottom: $spacing-md;
+  overflow: hidden;
 }
 
 .card-desc {
   font-size: $font-size-base;
-  color: gray;
+  color: $color-accent-4;
   text-align: left;
 }
 

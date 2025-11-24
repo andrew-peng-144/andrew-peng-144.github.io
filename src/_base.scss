@@ -1,12 +1,13 @@
 @use 'variables' as *;
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: $font-family-base;
   font-weight: 400;
 
   color-scheme: light dark;
   color: $color-white;
-  background-color: $color-bg;
+  background:$bg-pattern;
+  background-size: $bg-size;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,14 +32,14 @@ h6 {
 
 h1 {
   font-size: $font-size-h1;
-  margin-top: $spacing-sm;
-  margin-bottom: $spacing-sm;
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-md;
 }
 
 h2 {
   font-size: $font-size-h2;
-  margin-top: $spacing-sm;
-  margin-bottom: $spacing-sm;
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-md;
 }
 
 h3 {
@@ -66,7 +67,7 @@ section {
   text-align: center;
   margin: 0 auto;
   padding: $spacing-lg;
-  width: $section-width;
+  max-width: $section-max-width;
   border-bottom: 2px dashed $color-accent;
 }
 

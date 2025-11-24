@@ -8,7 +8,6 @@ const Header = () => {
 
       <div className={styles['header-wrapper']}>
         <h1>Andrew Peng</h1>
-        <h5>Software Developer</h5>
 
         <div className={styles['header-links']}>
 
