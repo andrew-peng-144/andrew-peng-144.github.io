@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './ProjectCard.module.scss'
+import { FaGithub } from 'react-icons/fa'
 
 export type ProjectCardProps = {
   id: number
@@ -22,7 +23,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ id, name, description, image 
       <p className={styles['card-desc']}>{description}</p>
       <div className={styles['card-footer']}>
         {github && (
-          // insert github icon
           <a
             href={github}
             target="_blank"
@@ -30,6 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ id, name, description, image 
             className="github-button"
             style={{ textAlign:'center'}}
           >
+            <FaGithub size='40px' />
         GitHub
       </a>
         )}

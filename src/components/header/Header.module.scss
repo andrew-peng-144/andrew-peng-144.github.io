@@ -2,6 +2,7 @@
 
 .header-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background: $color-primary;
@@ -12,6 +13,7 @@
 
 .header-links {
   display: flex;
+  flex-wrap: wrap;
   gap: $spacing-md;
 }
 

@@ -17,7 +17,7 @@ $font-size-lg: 1.125rem;
 
 // Headers
 // Assuming you have these in _variables.scss
-$font-size-h1: 2.5rem;
+$font-size-h1: clamp(2rem, 4vw, 2.5rem);
 $font-size-h2: 2rem;
 $font-size-h3: 1.5rem;
 $font-size-h4: 1.25rem;
